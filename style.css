@@ -52,6 +52,8 @@ table.wikitable { border-collapse:collapse; background:var(--bg2); margin:.8em 0
 .wikitable th, .wikitable td { border:1px solid var(--border); padding:4px 8px; vertical-align:top; }
 .wikitable th { background:#eaecf0; text-align:left; }
 .scroll { overflow-x:auto; }
+.symbols { display:flex; justify-content:center; align-items:center; gap:8px; }
+.symbols img { max-width:48%; max-height:140px; margin:6px 0; }
 
 footer { text-align:center; font-size:.8em; color:#54595d; padding:16px; border-top:1px solid var(--border); }
 
